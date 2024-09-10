@@ -1,0 +1,19 @@
+################################################################################
+
+Variables are containers for Storing data values.
+
+------------------------------------------------------
+In c++, There are different types of variables example:
+
+1.int :- 10,9,-239.
+2.double :- 2.3, 0.2, 14.88, -33.9.
+3.char :- 'b', 'c', 'z', 'y'.
+4.string :- ``Hello, It\'s me Rahul``, 'Hi, It's me Rahul', "Hi, It's me Rahul".
+5.bool :- true or false.
+
+--------------------------------------------------------
+
+Syntax: type variableName = value;
+
+Example:- int number = 123;
+          cout << number;
