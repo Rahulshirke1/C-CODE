@@ -1,0 +1,21 @@
+﻿################################################################################################################
+
+
+                   ESCAPE SEQUENCE
+                   ---------------
+
+Escape sequences are special characters used in programming and text processing to represent certain characters that are difficult to include directly in a string. Here's a table explaining common escape sequences:
+
+| Escape Sequence | Description                                     | Example (in a string)         | Output (when printed)    |
+|-----------------|-------------------------------------------------|-------------------------------|--------------------------|
+| `\\`            | Backslash                                        | `"This is a backslash: \\"`   | This is a backslash: \   |
+| `\'`            | Single quote (apostrophe)                       | `"It\'s a nice day."`         | It's a nice day.         |
+| `\"`            | Double quote                                     | `"He said, \"Hello!\""`       | He said, "Hello!"        |
+| `\n`            | New line                                         | `"Hello\nWorld"`              | Hello<br>World           |
+| `\t`            | Horizontal tab                                   | `"Name:\tJohn"`               | Name:    John            |
+| `\r`            | Carriage return (moves cursor to the start of the line) | `"Hello\rWorld"`       | World (overwrites Hello)  |
+| `\b`            | Backspace (moves cursor back one position)      | `"Hello\bWorld"`              | HellWorld (removes o)    |
+| `\f`            | Form feed (page break)                          | `"Hello\fWorld"`              | Hello (new page) World   |
+| `\a`            | Alert (bell sound)                              | `"Hello\aWorld"`              | Hello (bell sound) World |
+| `\uXXXX`        | Unicode character (16-bit hexadecimal)          | `"Unicode: \u00A9"`           | Unicode: ©               |
+| `\UXXXXXXXX`    | Unicode character (32-bit hexadecimal)          | `"Unicode: \U0001F600"`       | Unicode: 😀              |
