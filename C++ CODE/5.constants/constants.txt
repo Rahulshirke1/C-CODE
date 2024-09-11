@@ -1,0 +1,11 @@
+##########################################################################################################
+
+                                CONSTANTS
+                                ---------
+                            
+-> When you do not want others (or yourself) to change existing value, use the const keyword (this will 
+   declare the variables as "CONSTANTS", Which means unchangeable and read-only).
+
+-> Example:- 
+            1. const int myName = "Rahul";
+               myName = "Riya"; // error: assignment of read-only variable 'myName'.
