@@ -1,0 +1,57 @@
+#############################################################################################################
+                                 
+                                    String
+                                    ------
+
+    1. String 
+    -> String are used to store text.
+    -> A string variable contains of characters surrounded by doubles quotes.
+
+    2. Concatenation
+    -> The + operator can be used between strings to add them together to make a new string.
+    -> This is called Concatenation.
+    -> Example:- string firstName = "Rahul";
+                 string lastName = "Shirke";
+                 string fullName = firstName + lastName;
+                 cout << fullName;
+
+    3. Append
+    -> A string in C++ is an object, Which contains functions that can perform certain operations
+       on string.
+    -> For example, you can also Concatenation string were the append() functions:
+                    tring firstName = "Rahul";
+                    string lastName = "Shirke";
+                    string fullName = firstName.append(lastName);
+                    cout << fullName;
+   
+   4. String Length
+   -> To get lenght of a string, use the lenght() functions.
+   -> string txt = "It's my first time to vote";
+      cout << " The lenght = " << txt.length();
+
+   -> You might have seen c++ programs that use the size() function to get the lenght of
+       a String.
+   -> This is a just an alias of length().
+
+   5. Acess String 
+   -> You can access the characters in a string by refferring to its index number inside square brakets[].
+   -> Example :- string myString = "hello";
+                 cout << myString [0];
+                 myString[1] = 'E';
+                 cout << myString;
+
+   6. User Input String
+   -> It is possible to use the extraction operation >> on cin to stored a string entered by a user.
+   -> However, cin considers a space(Whitespace, tabs, etc) as a terminating charector which means
+      that it can only store a single world.
+   -> We often use the getline() function to read a line of text. 
+
+       getline(cin , string );
+
+   -> Example:- 1.string firstName;
+                  cout << "Enter your first name:";
+                  getline(cin, firstName);
+                  cout << firstName;
+
+                  // Instead firstname name it fullName.
+

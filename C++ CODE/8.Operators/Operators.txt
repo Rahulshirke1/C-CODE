@@ -1,0 +1,52 @@
+###########################################################################################
+
+                                OPERATORS
+                                ---------
+
+    -> Operators are used to perform operations on variable and values.
+
+    -> In the example below we use the + operator to add together two values:-
+                                                                              int c = 88 + 88;
+    
+    -> C++ divides the operators into following groups:-
+        +--------------------+------------------+----------------------------------------------------+
+        | Operator           | Type             | Description                                        |
+        +--------------------+------------------+----------------------------------------------------+
+        | +                  | Arithmetic       | Addition                                           |
+        | -                  | Arithmetic       | Subtraction                                        |
+        | *                  | Arithmetic       | Multiplication                                     |
+        | /                  | Arithmetic       | Division                                           |
+        | %                  | Arithmetic       | Modulus (remainder)                                |
+        | ++                 | Arithmetic       | Increment                                          |
+        | --                 | Arithmetic       | Decrement                                          |
+        | =                  | Assignment       | Assigns value to a variable                        |
+        | +=                 | Assignment       | Adds and assigns value                             |
+        | -=                 | Assignment       | Subtracts and assigns value                        |
+        | *=                 | Assignment       | Multiplies and assigns value                       |
+        | /=                 | Assignment       | Divides and assigns value                          |
+        | ==                 | Comparison       | Equal to                                           |
+        | !=                 | Comparison       | Not equal to                                       |
+        | >                  | Comparison       | Greater than                                       |
+        | <                  | Comparison       | Less than                                          |
+        | >=                 | Comparison       | Greater than or equal to                           |
+        | <=                 | Comparison       | Less than or equal to                              |
+        | &&                 | Logical          | Logical AND                                        |
+        | ||                 | Logical          | Logical OR                                         |
+        | !                  | Logical          | Logical NOT                                        |
+        | &                  | Bitwise          | Bitwise AND                                        |
+        | |                  | Bitwise          | Bitwise OR                                         |
+        | ^                  | Bitwise          | Bitwise XOR                                        |
+        | ~                  | Bitwise          | Bitwise NOT                                        |
+        | <<                 | Bitwise          | Left shift                                         |
+        | >>                 | Bitwise          | Right shift                                        |
+        | ? :                | Ternary          | Conditional (ternary) operator                     |
+        | &                  | Address-of       | Returns the address of a variable                  |
+        | *                  | Pointer Dereference | Accesses the value at the pointer's address    |
+        | sizeof()           | Other            | Returns the size of a data type                    |
+        | typeid()           | Other            | Returns the type information                       |
+        | new, delete        | Memory management| Allocates/deallocates memory                       |
+        +--------------------+------------------+----------------------------------------------------+
+
+
+
+

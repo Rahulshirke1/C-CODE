@@ -1,0 +1,50 @@
+###########################################################################################
+
+                                DATA TYPES
+                                ----------
+
+    -> a variable in c++ must be specified data type.
+
+    -> The data type specifies the size and type of information the variable will store.
+
+    ->  +---------------+-------------------+----------------------------------------------------------+
+        | Data Type     | Size (in bytes)    | Description                                             |
+        +---------------+-------------------+----------------------------------------------------------+
+        | bool          | 1                 | Represents boolean values (true or false)                |
+        | char          | 1                 | Represents a single character                            |
+        | wchar_t       | 2 or 4            | Represents a wide character (for internationalization)   |
+        | char16_t      | 2                 | Represents a 16-bit character (Unicode)                  |
+        | char32_t      | 4                 | Represents a 32-bit character (Unicode)                  |
+        | int           | 4                 | Represents a standard integer                            |
+        | short         | 2                 | Represents a short integer                               |
+        | long          | 4 or 8            | Represents a long integer (depends on platform)          |
+        | long long     | 8                 | Represents a larger integer for big numbers              |
+        | float         | 4                 | Represents a floating-point number (single precision)    |
+        | double        | 8                 | Represents a floating-point number (double precision)    |
+        | long double   | 8, 12, or 16      | Represents an extended precision floating-point          |
+        | unsigned      | Depends on type   | Represents only non-negative numbers (e.g., unsigned int)|
+        | void          | 0                 | Indicates no type, used in functions that return nothing |
+        | size_t        | Platform-dependent| Represents size of any object in bytes                   |
+        +---------------+-------------------+----------------------------------------------------------+
+
+
+    1. Scientific numbers
+    -> A floating number can also be a Scientific number with an "e" to Indicates the
+       power of 10.
+    
+    -> Example:- 1. float f1 = 35e5;
+                    double d1 = 12E4;
+                    
+                    cout << f1;
+                    cout << d1;
+
+    2. Alternatively ASCII
+    -> If you familiar with ASCII,you can use ASCII values to display certain characters.
+
+    -> Example:- char a=65, b = 66, c = 67;
+                 cout << a;
+                 cout << b;
+                 cout << c;
+
+
+###########################################################################################
