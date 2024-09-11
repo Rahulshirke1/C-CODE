@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/2022-2023/C++",
-      "program": "c:/2022-2023/C++/build/Debug/outDebug",
+      "cwd": "c:/2022-2023/C++/C++ CODE/6.C++ user input",
+      "program": "c:/2022-2023/C++/C++ CODE/6.C++ user input/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
