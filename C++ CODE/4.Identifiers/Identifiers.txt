@@ -1,0 +1,11 @@
+##########################################################################################################
+
+                            IDENTIFIERS
+                            -----------
+
+-> All c++ variables must be identifiers with unique names.
+
+-> These unique names are called identifiers.
+
+-> It is recommeded to use descriptive names in order to create understandable
+   and maintainable code.
