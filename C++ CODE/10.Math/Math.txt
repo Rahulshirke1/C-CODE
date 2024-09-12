@@ -1,0 +1,26 @@
+#############################################################################################################
+
+                                           Math
+                                           ----
+
+    1. C++ Math 
+    -> C++ has many functions that allows you to perform mathematical tasks on numbers.
+
+    2.Max and Min 
+    -> The max(x,y) function can be used to find the highest value of x and y.
+
+    -> The min(x,y) function can be used to find the lowest value of x and y.
+
+    -> Example:- cout << max(5,10);
+                 cout << min(5,10);
+
+    3. C++ <C math> Library
+    -> Other functions, such as sqrt(square root), round (round a number) and log (natural logarithm),
+       can be found in the <c math> header files.
+
+    -> Example:- #include <c math>
+                 cout << sqrt(64);
+                 cout << round(2.6);
+                 cout << log(2);
+
+#############################################################################################################
